@@ -1,0 +1,21 @@
+{
+  "name": "pod-product-image-extractor",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^15.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "cheerio": "^1.0.0",
+    "playwright-core": "1.56.1",
+    "@sparticuz/chromium": "^141.0.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
